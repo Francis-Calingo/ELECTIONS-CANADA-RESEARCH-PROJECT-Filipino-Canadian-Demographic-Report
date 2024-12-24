@@ -11,7 +11,6 @@ install.packages("sf")
 install.packages("dplyr")
 install.packages("corrplot")
 install.packages("CatEncoders")
-install.packages("leaflet")
 
 library(data.table)
 library(funModeling)
@@ -23,7 +22,6 @@ library(sf)
 library(dplyr)
 library(corrplot)
 library(CatEncoders)
-library(leaflet)
 
 ###############################
 ## IMPORT AND EXPLORE DATA  ##
