@@ -11,7 +11,7 @@
   <ul>
     <li><b>IDEs Used:</b> RStudio</li>
     <li><b>R Version:</b> rstudio-2024.12.0</li>
-    <li><b>Libraries:</b> </li>
+    <li><b>Libraries:</b> data.table, funModeling, Hmisc, ggplot2, sf, dplyr, corrplot, CatEncoders</li>
   </ul>
   
 ## Web Scraping
