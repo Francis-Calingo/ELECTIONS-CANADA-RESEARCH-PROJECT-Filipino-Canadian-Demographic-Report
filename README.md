@@ -15,108 +15,126 @@
   </ul>
   
 ## Web Scraping
-Permanent Residence admission Data was scraped from this website: https://open.canada.ca/data/en/dataset/f7e5498e-0ad8-4417-85c9-9b8aff9b9eda/resource/81021dfd-c110-42cf-a975-1b9be8b82980 
+ 
+ <ul>
+ <li><b>Census Profile, 2021 Census of Population:</b> https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/index.cfm?Lang=E </li>
+ <li><b>Census Profile, 2016 Census of Population:</b> https://www12.statcan.gc.ca/census-recensement/2016/dp-pd/prof/index.cfm?Lang=E </li>
+ <li><b>2021 Census – Boundary files:</b> https://www12.statcan.gc.ca/census-recensement/2021/geo/sip-pis/boundary-limites/index2021-eng.cfm?year=21 </li>
+ </ul>
 
 ## Feature Engineering
-The following ChatGPT prompt was used to generate our synthetic data:
 
-<i>Generate a realistic dataset of rental prices for major Canadian cities, including Vancouver, Toronto, Montreal, Calgary, Ottawa, Edmonton, and Halifax. The dataset should include:</i>
+<b>VARIABLES SCRAPPED FROM STATISTICS CANADA</b>
+<li>Electoral District (2013 Representation Order)</li>
+<li>Province/Territory</li>
+<li>Population (2021 Census)</li>
+<li>% Filipinos</li>
+<li>Number of Filipinos (2021 Census)</li>
+<li>Number of Filipinos (2016 Census)</li>
+<li>% of Population with Knowledge of French</li>
+<li>Healthcare Workers (NOC Classification)</li>
+<li>Number of Recent Immigrants (2016-2021)</li>
+<li>Recent Immigrants from PH (2016-2021)</li>
+<li>Number of People with Bachelors Degree or Higher</li>
+<li>Median Age</li>
+<li>Bikol Mother Tongue</li>
+<li>Bisaya, n.o.s. Mother Tongue</li>
+<li>Cebuano Mother Tongue</li>
+<li>Hiligaynon Mother Tongue</li>
+<li>Ilocano Mother Tongue</li>
+<li>Kankanaey Mother Tongue</li>
+<li>Kinaray-a Mother Tongue</li>
+<li>Pampangan Mother Tongue</li>
+<li>Pangasinan Mother Tongue</li>
+<li>Tagalog Mother Tongue</li>
+<li>Waray-Waray Mother Tongue</li>
+<li>Second Most Spoken Philippine Language</li>
 
-<i><b>1.	Data Columns:</b>
-<ul>
-    <li>City: Major cities like Toronto, Vancouver, Montreal, Calgary, etc.</li>
-    <li>Province: Corresponding provinces (e.g., Ontario, British Columbia).</li>
-    <li>Libraries and Packages:</li>
-    <li>Year: From 2019 to 2023.</li>
-  <li>Month: January to December.</li>
-  <li>Rental Type: Apartment, Condo, Detached House, Townhouse.</li>
-  <li>Number of Bedrooms: 1, 2, 3, 4, etc.</li>
-  <li>Number of Bathrooms: 1, 2, 3, etc.</li>
-  <li>Square Footage: Ranges for different rental types.</li>
-  <li>Furnished: Yes/No.</li>
-  <li>Pet Friendly: Yes/No.</li>
-  <li>Parking Included: Yes/No.</li>
-  <li>Distance to City Center (km): Numeric value.</li>
-  <li>Monthly Rent (Target): Dependent variable, with realistic pricing trends.</li>
-  <li>Walk Score: A score between 0 and 100 indicating walkability.</li>
-  <li>Transit Score: A score between 0 and 100 indicating access to public transit.</li>
-  <li>Age of Building: Number of years since the building was constructed.</li>
-  <li>Energy Efficiency Rating: Numeric score (e.g., 0–10).</li>
-  <li>Lease Term: Length of the lease in months (e.g., 6, 12, 24).</li>
-  <li>Noise Level: Numeric score (e.g., 1–10, with 10 being very noisy).</li>
-  <li>Nearby Schools Rating: Average rating of schools in the area (1–10).</li>
-  <li>Internet Availability: Yes/No indicating high-speed internet availability.</li>
-  <li>Crime Rate Index: A score representing the area's safety.</li>
-  <li>Annual Property Tax: Approximation based on rent and location.</li>
-  </ul>
-
-
-<b>2.	Realism:</b>
-<ul>
-<li>Average monthly rent should reflect the general cost of living in each city. For example, Vancouver and Toronto should have higher average rents compared to Edmonton or Halifax.</li>
-<li>Include a range of rental prices within cities to capture variability (e.g., downtown areas vs. suburban neighborhoods).</li>
-<li>Use realistic distributions for rental prices, square footage, and proximity to transit. For instance, apartments should generally be smaller and less expensive than single-family homes.</li>
-</ul>
-
-<b>3.	Additional Notes:</b>
-<ul>
-<li>Include 10,000 rows of data distributed proportionally across cities.</li>
-<li>Reflect seasonality and trends where applicable (e.g., higher prices in Toronto and Vancouver for smaller units due to demand).</li>
-<li>Ensure property types align with city norms (e.g., more condos in downtown Toronto, more single-family homes in Calgary suburbs).</li>
-</ul>
-</i>
+<b>CONSTRUCTED VARIABLES:</b>
+<li>Healthcare Workers (per 100,000)</li>
+<li>% of Recent Immigrants from PH (2016-2021)</li>
+<li>Number of People with Bachelor's Degree or Higher (per 100,000)</li>
+<li>Filipino Growth Rate (2016-2021)</li>
+<li>% Second Most Spoken Philippine Language</li>
 
 
-## Data Cleaning & Exploratory Data Analysis
-  <ul>
-    <li>Target Variable=MonthlyRent</li>
-    <li>Feature variables categorized into three types: Categorical Variables, Discrete Variables and Continuous Variables.</li>
-    <li>Pairwise plots were produced using Seaborn to identify patterns and relationships.</li>
-  </ul>
-  
-![image](https://github.com/user-attachments/assets/49096bf0-eb45-4adb-bafb-11d2a8a7bd10)
+## Exploratory Data Analysis
 
-  <ul>
-    <li>The following features had the most influence on MonthlyRent, and to be used for model building: City, RentalType, Year, Month, Bedrooms, 
-SquareFootage, and AnnualPropertyTax.</li>
-    <li>Performed Categorical Encoding and Standardized Scaling for pre-processing pipeline, where:</li>
-    <ul>
-      <li>Dependant variable=MonthlyRent</li>
-      <li>Categorical variables=City, RentalType</li>
-      <li>Discrete variables=Year, Month, Bedrooms, SquareFootage, Admissions</li>
-      <li>Continuous variables=AnnualPropertyTax</li>
-    </ul>
+#### <i> Numerical Variables </i>
+
+<img width="911" alt="image" src="https://github.com/user-attachments/assets/a846c99a-43a9-4ad8-87fa-7e6e3622d249" />
+
+#### <i>Categorical Variables </i>
+
+<img width="1013" alt="image" src="https://github.com/user-attachments/assets/1821d092-6d6b-4d31-a1b3-93efa74b6030" />
+
+<img width="999" alt="image" src="https://github.com/user-attachments/assets/23c4b4a9-99f7-473f-b84a-2371b10d0c72" />
+
+#### <i>Histogram Plots </i>
+<i> Canada </i>
+
+<img width="993" alt="image" src="https://github.com/user-attachments/assets/7b0cd999-3dd9-425e-8b93-39057ab4f95d" />
+
+<i> Atlantic Canada </i>
+
+<img width="950" alt="image" src="https://github.com/user-attachments/assets/9b62c0ab-9205-4912-bc15-1d7002b453da" />
+
+<img width="973" alt="image" src="https://github.com/user-attachments/assets/5d22eb83-9e9e-4b0f-b07e-00b980765f67" />
+
+<img width="944" alt="image" src="https://github.com/user-attachments/assets/6d25beec-38ec-45ed-9a5e-bba412117b68" />
+
+
+<i> Quebec </i>
+
+<img width="1029" alt="image" src="https://github.com/user-attachments/assets/a037a4fd-ea41-493f-9673-dfbd1beedf37" />
+
+
+<i> Ontario </i>
+
+<img width="545" alt="image" src="https://github.com/user-attachments/assets/a7cbe29c-b448-41e6-b333-47c28356a627" />
+
+
+<i> Prairies </i>
+
+<img width="712" alt="image" src="https://github.com/user-attachments/assets/5fd4f046-9ef7-4f92-9e74-6b8e29b344f5" />
+
+<img width="734" alt="image" src="https://github.com/user-attachments/assets/e8a77b28-ff37-4f41-89bd-aa353dd7ad74" />
+
+<img width="749" alt="image" src="https://github.com/user-attachments/assets/88b9fe36-aaeb-4005-a32f-08fb68c6d364" />
+
+<i> British Columbia </i>
+
+<img width="763" alt="image" src="https://github.com/user-attachments/assets/0ac266d8-b029-47bf-812c-4fcc18fd4904" />
+
 
 ## Correlation Analysis
 <ul>
-    <li>Steps for model selection (both linear regression and random forest regressor):</li>
+    <li>Variables used for analysis:</li>
     <ul>
-      <li>(1) Define target (y) and features (X) </li>
-      <li>(2) Encode categorical features</li>
-      <li>(3) Split data into training and testing sets, size=0.2</li>
-      <li>(4) Initialize, then train model</li>
-      <li>(5) Get model coefficients and intercept</li>
-      <li>(6) Make predictions on test set</li>
-      <li>(7) Evaluate model</li>
-      <li>(8) Perform k-fold cross-validation (k=5)</li>
+      <li>Province/Territory</li>
+      <li>% Filipinos</li>
+      <li>% Population with Knowledge of French</li>
+      <li>Median Age</li>
+      <li>Healthcare workers (oer 100,000)</li>
+      <li>% of Recent Immigrants from the PH (2016-2021)</li>
+      <li>Number of People with Bachelors Degree or Higher (per 100,000)</li>
       </ul>
-    <li>Performed hyperparameter tuning on random forest regressor using GridSearchCV.</li>
+    <li>Label encoding (i.e., assigning integers for each province and territory) was used for the variable Province/Territory</li>
   </ul>
+
+  <img width="636" alt="image" src="https://github.com/user-attachments/assets/bd648d12-bcbc-437e-9602-c94458daf0fe" />
+
   
 ## Geospatial Analysis
-<b>Linear Regression Model:</b>
-  <ul>
-    <li><b>RMSE:</b> 114799.009005</li>
-    <li><b>R^2 Score:</b> 0.935382</li>
-   <li><b>Average MSE from Cross-Validation:</b> 626996.754116</li>
-    </ul>
-<b>Random Forest Regressor:</b>
-  <ul>
-    <li><b>RMSE:</b> 34611.563041</li>
-    <li><b>R^2 Score:</b> 0.980581</li>
-   <li><b>Average MSE from Cross-Validation:</b> 716345.255222</li>
-    </ul>
 
-Random Forest Regressor performed better. As it is more suited for non-linear data, suggesting data's non-linearity.
+<img width="604" alt="image" src="https://github.com/user-attachments/assets/a2b151f7-d4c7-4f7a-bb01-cac2b213f890" />
+
+<img width="607" alt="image" src="https://github.com/user-attachments/assets/b639a44d-e2bc-4309-b83d-fe10a91a1f1d" />
+
+<img width="554" alt="image" src="https://github.com/user-attachments/assets/39f99f77-70ec-40d9-9042-af35a8a365f2" />
+
+<img width="590" alt="image" src="https://github.com/user-attachments/assets/ed72cc26-efa0-4d8e-8474-7fcdb4ad1d87" />
+
+
 
 
