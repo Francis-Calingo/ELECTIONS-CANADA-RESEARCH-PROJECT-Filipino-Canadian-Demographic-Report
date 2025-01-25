@@ -1,10 +1,12 @@
 # PROJECT OVERVIEW: Brief Demographic Snapshot of the Filipino Canadian Community (Using R)
 
   <ul>
+    <li>Spearheaded and led a special resarch initiative (which included this project) that helped with Elections Canada's outreach and policy strategies pertaining to the Filipino Canadian community.</li>
     <li>Performed exploratory data analysis, correlation analysis, and geospatial mapping of data on the Filipino/a/x community in Canada.</li>
     <li>Scraped data from Statistics Canada.</li>
     <li>Performed feature engineering on some variables to create new variables.</li>
     <li>Downloaded shapefile of Canada's previous federal electoral district boundaries to create choropleth maps.</li>
+
   </ul>
   
 ## Code and Resources Used
