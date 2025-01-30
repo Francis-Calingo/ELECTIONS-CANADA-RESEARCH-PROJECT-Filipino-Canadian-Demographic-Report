@@ -1,7 +1,7 @@
 # PROJECT OVERVIEW: Brief Demographic Snapshot of the Filipino Canadian Community (Using R)
 
   <ul>
-    <li>Spearheaded and led a special resarch initiative (which included this project) that helped with Elections Canada's outreach and policy strategies pertaining to the Filipino Canadian community.</li>
+    <li>Spearheaded and led a special research initiative (which included this project) that helped with Elections Canada's outreach and policy strategies pertaining to the Filipino Canadian community.</li>
     <li>Performed exploratory data analysis, correlation analysis, and geospatial mapping of data on the Filipino/a/x community in Canada.</li>
     <li>Scraped data from Statistics Canada.</li>
     <li>Performed feature engineering on some variables to create new variables.</li>
@@ -117,7 +117,7 @@
       <li>% Filipinos</li>
       <li>% Population with Knowledge of French</li>
       <li>Median Age</li>
-      <li>Healthcare workers (oer 100,000)</li>
+      <li>Healthcare workers (per 100,000)</li>
       <li>% of Recent Immigrants from the PH (2016-2021)</li>
       <li>Number of People with Bachelors Degree or Higher (per 100,000)</li>
       </ul>
