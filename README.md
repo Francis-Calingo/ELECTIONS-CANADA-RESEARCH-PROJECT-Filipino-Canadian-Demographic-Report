@@ -1,5 +1,19 @@
 # PROJECT OVERVIEW: Brief Demographic Snapshot of the Filipino Canadian Community (Using R)
 
+## Table of Contents
+* [Introduction](#introduction)
+* [Code and Resources Used](#code-and-resources-used)
+* [Web Scraping](#web-scraping)
+* [Feature Engineering](#feature-engineering)
+* [Exploratory Data Analysis](#exploratory-data-analysis)
+  * [Numerical Variables](#-numerical-variables-)
+  * [Categorical Variables](#categorical-variables-)
+  * [Histogram Plots](#histogram-plots-)
+* [Correlation Analysis](#correlation-analysis)
+* [Geospatial Analysis](#geospatial-analysis)
+
+## Introduction
+
   <ul>
     <li>Spearheaded and led a special research initiative (which included this project) that helped with Elections Canada's outreach and policy strategies pertaining to the Filipino Canadian community.</li>
     <li>Performed exploratory data analysis, correlation analysis, and geospatial mapping of data on the Filipino/a/x community in Canada.</li>
