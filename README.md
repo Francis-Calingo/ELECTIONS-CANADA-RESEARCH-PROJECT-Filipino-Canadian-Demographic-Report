@@ -12,7 +12,7 @@
 * [Correlation Analysis](#correlation-analysis)
 * [Geospatial Analysis](#geospatial-analysis)
 
-## Introduction
+<details><summary><h2>Introduction</h2></summary> 
 
   <ul>
     <li>Spearheaded and led a special research initiative (which included this project) that helped with Elections Canada's outreach and policy strategies pertaining to the Filipino Canadian community.</li>
@@ -22,15 +22,18 @@
     <li>Downloaded shapefile of Canada's previous federal electoral district boundaries to create choropleth maps.</li>
 
   </ul>
-  
-## Code and Resources Used
+</details>
+
+<details><summary><h2>Code and Resources Used</h2></summary> 
   <ul>
     <li><b>IDEs Used:</b> RStudio</li>
     <li><b>R Version:</b> rstudio-2024.12.0</li>
     <li><b>Libraries:</b> data.table, funModeling, Hmisc, ggplot2, sf, dplyr, corrplot, CatEncoders</li>
   </ul>
-  
-## Web Scraping
+
+ </details>
+
+<details><summary><h2>Web Scraping</h2></summary> 
  
  <ul>
  <li><b>Census Profile, 2021 Census of Population:</b> https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/index.cfm?Lang=E </li>
@@ -38,7 +41,9 @@
  <li><b>2021 Census – Boundary files:</b> https://www12.statcan.gc.ca/census-recensement/2021/geo/sip-pis/boundary-limites/index2021-eng.cfm?year=21 </li>
  </ul>
 
-## Feature Engineering
+ </details>
+
+<details><summary><h2>Feature Engineering</h2></summary> 
 
 <b>VARIABLES SCRAPPED FROM STATISTICS CANADA</b>
 <li>Electoral District (2013 Representation Order)</li>
@@ -73,8 +78,9 @@
 <li>Filipino Growth Rate (2016-2021)</li>
 <li>% Second Most Spoken Philippine Language</li>
 
+</details>
 
-## Exploratory Data Analysis
+<details><summary><h2>Exploratory Data Analysis</h2></summary> 
 
 #### <i> Numerical Variables </i>
 
@@ -122,8 +128,10 @@
 
 <img width="763" alt="image" src="https://github.com/user-attachments/assets/0ac266d8-b029-47bf-812c-4fcc18fd4904" />
 
+</details>
 
-## Correlation Analysis
+<details><summary><h2>Correlation Analysis</h2></summary> 
+
 <ul>
     <li>Variables used for analysis:</li>
     <ul>
@@ -139,9 +147,9 @@
   </ul>
 
   <img width="636" alt="image" src="https://github.com/user-attachments/assets/bd648d12-bcbc-437e-9602-c94458daf0fe" />
+</details>
 
-  
-## Geospatial Analysis
+<details><summary><h2>Geospatial Analysis</h2></summary> 
 
 <img width="604" alt="image" src="https://github.com/user-attachments/assets/a2b151f7-d4c7-4f7a-bb01-cac2b213f890" />
 
@@ -151,6 +159,6 @@
 
 <img width="590" alt="image" src="https://github.com/user-attachments/assets/ed72cc26-efa0-4d8e-8474-7fcdb4ad1d87" />
 
-
+</details>
 
 
