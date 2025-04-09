@@ -1,4 +1,144 @@
-# PROJECT OVERVIEW: Brief Demographic Snapshot of the Filipino Canadian Community (Using R)
+# Brief Demographic Snapshot of the Filipino Canadian Community (Using R)
+
+# Table of Contents
+* [Project Background](#project-background)
+* [Data Structure and Initial Checks](#data-structure-and-initial-checks)
+* [Executive Summary](#executive-summary)
+* [Insights Deep Dive](#insights-deep-dive)
+* [Recommendations](#recommendations)
+* [Assumptions and Caveats](#assumptions-and-caveats)
+
+
+# Project Background
+Elections Canada, Canada’s non-partisan government agency responsible for the administration of federal-level elections and matters related to Canadian democratic institutions, is home to the Environmental Monitoring Centre (EMC), which monitors Canadian public sentiment of electoral affairs and democracy from the traditional and social media environment, and reports their findings weekly to the Chief Electoral Officer. Established right before the COVID-19 pandemic, it has since grown its capacity to not only monitor more “niche” platforms, but also monitor non-official language media (i.e., non-English and non-French posts and outlets). 
+
+However, monitoring Tagalog language media proved to be a challenge until I was hired as the very first Filipino personnel in the Centre. My first-hand knowledge of the language and culture allowed me to integrate elections and democracy-related words from the Tagalog language, as well as Tagalog-language media, in the EMC’s multilingual monitoring arsenal. 
+
+I decided to take my research a step further, and completed a report on the  demographic data on Filipino Canadians, as this knowledge would enhance the agency’s ability to optimize their community outreach on the fourth-largest visible minority group in Canada.
+
+Insights and recommendations are provided on the following key areas:
+
+- **Exploratory Data Analysis:** Surface-level analysis of the Filipino community in Canada.
+- **Correlation Analysis:** More comprehensive analysis determining correlation between variables, resulting in a better understanding of localized characteristics of different Filipino communities.
+- **Geospatial Analysis:** Better understanding of the characteristics of Filipino communities on a riding-by-riding level, helping the agency with their operations when they open their electoral district offices during the election or by-election period.
+
+The following Excel file is an amalgamation of various datasets taken from Statistics Canada, as well as features that were engineered from existing variables: [Link to download](https://github.com/Francis-Calingo/CATEGORICAL-SOCIOECONOMIC-DATA-ANALYSIS-OF-CANADIAN-REGIONS/raw/refs/heads/main/Census_Division_Stats_-_Sheet1.csv).
+* <b>Census Profile, 2021 Census of Population:</b> https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/index.cfm?Lang=E
+* <b>Census Profile, 2016 Census of Population:</b> https://www12.statcan.gc.ca/census-recensement/2016/dp-pd/prof/index.cfm?Lang=E
+* <b>2021 Census – Boundary files:</b> https://www12.statcan.gc.ca/census-recensement/2021/geo/sip-pis/boundary-limites/index2021-eng.cfm?year=21
+
+The following is the R Script used for the quantitative analysis portion of the reporting: [Link to download](https://github.com/Francis-Calingo/CATEGORICAL-SOCIOECONOMIC-DATA-ANALYSIS-OF-CANADIAN-REGIONS/raw/refs/heads/main/PROFILE%20OF%20THE%20FILIPINO%20CANADIAN%20COMMUNITY%20(BY%20ELECTORAL%20DISTRICTS).R).
+* <b>IDEs Used:</b> RStudio
+* <b>R Version:</b> rstudio-2024.12.0
+* <b>Libraries:</b> data.table, funModeling, Hmisc, ggplot2, sf, dplyr, corrplot, CatEncoders
+
+The following is the report sent to senior analysts of the EMC: [Link to download](https://github.com/Francis-Calingo/CATEGORICAL-SOCIOECONOMIC-DATA-ANALYSIS-OF-CANADIAN-REGIONS/raw/refs/heads/main/PROFILE%20OF%20THE%20FILIPINO%20CANADIAN%20COMMUNITY%20(BY%20ELECTORAL%20DISTRICTS).pdf).
+
+
+# Data Structure and Initial Checks
+
+The companies main database structure as seen below consists of four tables: table1, table2, table3, table4, with a total row count of X records. A description of each table is as follows:
+- **Table 2:**
+- **Table 3:**
+- **Table 4:**
+- **Table 5:**
+
+[Entity Relationship Diagram here]
+
+
+
+# Executive Summary
+
+### Overview of Findings
+
+Explain the overarching findings, trends, and themes in 2-3 sentences here. This section should address the question: "If a stakeholder were to take away 3 main insights from your project, what are the most important things they should know?" You can put yourself in the shoes of a specific stakeholder - for example, a marketing manager or finance director - to think creatively about this section.
+
+[Visualization, including a graph of overall trends or snapshot of a dashboard]
+
+
+
+# Insights Deep Dive
+### Category 1:
+
+* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+  
+* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+  
+* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+  
+* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+
+[Visualization specific to category 1]
+
+
+### Category 2:
+
+* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+  
+* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+  
+* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+  
+* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+
+[Visualization specific to category 2]
+
+
+### Category 3:
+
+* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+  
+* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+  
+* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+  
+* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+
+[Visualization specific to category 3]
+
+
+### Category 4:
+
+* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+  
+* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+  
+* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+  
+* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+
+[Visualization specific to category 4]
+
+
+
+# Recommendations:
+
+Based on the insights and findings above, we would recommend the [stakeholder team] to consider the following: 
+
+* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
+  
+* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
+  
+* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
+  
+* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
+  
+* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
+  
+
+
+# Assumptions and Caveats:
+
+Throughout the analysis, multiple assumptions were made to manage challenges with the data. These assumptions and caveats are noted below:
+
+* Ridings boundaries were based on the 2013 representation order. As there was no shapefile available for the current riding boundaries (based on the 2023 representation order), the shapefile for the 2013 representation order was used instead. An updated version of this analysis will need to be performed once that shapefile is available (Census data already accounts for the updated boundaries).
+  
+* Data was mostly scraped from 2021 Census data (the next census year is 2026). The astronomical increases in migration into Canada since then (permanent and non-permanent) may render the analysis slightly outdated.
+  
+
+
+=======================================================================
+
 
 ## Table of Contents
 * [Introduction](#introduction)
@@ -14,32 +154,16 @@
 
 <details><summary><h2>Introduction</h2></summary> 
 
-  <ul>
-    <li>Spearheaded and led a special research initiative (which included this project) that helped with Elections Canada's outreach and policy strategies pertaining to the Filipino Canadian community.</li>
-    <li>Performed exploratory data analysis, correlation analysis, and geospatial mapping of data on the Filipino/a/x community in Canada.</li>
-    <li>Scraped data from Statistics Canada.</li>
-    <li>Performed feature engineering on some variables to create new variables.</li>
-    <li>Downloaded shapefile of Canada's previous federal electoral district boundaries to create choropleth maps.</li>
 
-  </ul>
 </details>
 
 <details><summary><h2>Code and Resources Used</h2></summary> 
-  <ul>
-    <li><b>IDEs Used:</b> RStudio</li>
-    <li><b>R Version:</b> rstudio-2024.12.0</li>
-    <li><b>Libraries:</b> data.table, funModeling, Hmisc, ggplot2, sf, dplyr, corrplot, CatEncoders</li>
-  </ul>
 
  </details>
 
 <details><summary><h2>Web Scraping</h2></summary> 
  
- <ul>
- <li><b>Census Profile, 2021 Census of Population:</b> https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/index.cfm?Lang=E </li>
- <li><b>Census Profile, 2016 Census of Population:</b> https://www12.statcan.gc.ca/census-recensement/2016/dp-pd/prof/index.cfm?Lang=E </li>
- <li><b>2021 Census – Boundary files:</b> https://www12.statcan.gc.ca/census-recensement/2021/geo/sip-pis/boundary-limites/index2021-eng.cfm?year=21 </li>
- </ul>
+
 
  </details>
 
