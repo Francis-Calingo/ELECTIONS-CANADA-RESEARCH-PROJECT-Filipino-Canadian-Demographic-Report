@@ -27,7 +27,7 @@ The following Excel file is an amalgamation of various datasets taken from Stati
 * <a href="https://www12.statcan.gc.ca/census-recensement/2016/dp-pd/prof/index.cfm?Lang=E">Census Profile, 2016 Census of Population</a> 
 * <a href="https://www12.statcan.gc.ca/census-recensement/2021/geo/sip-pis/boundary-limites/index2021-eng.cfm?year=21">2021 Census – Boundary files</a> 
 
-The following is the R Script used for the quantitative analysis portion of the reporting: <a href="https://raw.githubusercontent.com/Francis-Calingo/ELECTIONS-CANADA-RESEARCH-PROJECT-Filipino-Canadian-Demographic-Report/main/PROFILE%20OF%20THE%20FILIPINO%20CANADIAN%20COMMUNITY%20(BY%20ELECTORAL%20DISTRICTS).R" download="script.R">Link to download</a>.
+The following is the R Script used for the quantitative analysis portion of the reporting: <a href="https://github.com/Francis-Calingo/ELECTIONS-CANADA-RESEARCH-PROJECT-Filipino-Canadian-Demographic-Report/releases/download/v1.0/PROFILE%20OF%20THE%20FILIPINO%20CANADIAN%20COMMUNITY%20(BY%20ELECTORAL%20DISTRICTS).R" download="script.R">Link to download</a>.
 * <b>IDEs Used:</b> RStudio
 * <b>R Version:</b> rstudio-2024.12.0
 * <b>Libraries:</b> data.table, funModeling, Hmisc, ggplot2, sf, dplyr, corrplot, CatEncoders
