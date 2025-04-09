@@ -61,10 +61,15 @@ Four choropleth maps were created for this analysis, but the map that stood out 
 
 <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px;">
   <!-- Large Image (spans across all columns) -->
-  <img src="https://github.com/Francis-Calingo/ELECTIONS-CANADA-RESEARCH-PROJECT-Filipino-Canadian-Demographic-Report/blob/main/Figures/Figure2.1.jpg"" alt="Large Image" width="600" style="grid-column: span 3;">
+  <figure>
+  <img
+    src="https://github.com/Francis-Calingo/ELECTIONS-CANADA-RESEARCH-PROJECT-Filipino-Canadian-Demographic-Report/blob/main/Figures/Figure2.1.jpg"
+    alt="Medium Image 1" width="600" />
+  <figcaption>Figure 2.1</figcaption>
+</figure>
   
   <!-- Medium Image 1 -->
-  <img src="https://github.com/Francis-Calingo/ELECTIONS-CANADA-RESEARCH-PROJECT-Filipino-Canadian-Demographic-Report/blob/main/Figures/Figure2.2.jpg" alt="Medium Image 1" width="400">
+  <img src="https://github.com/Francis-Calingo/ELECTIONS-CANADA-RESEARCH-PROJECT-Filipino-Canadian-Demographic-Report/blob/main/Figures/Figure2.2.jpg" >
   
   <!-- Medium Image 2 -->
   <img align="center" src="https://github.com/Francis-Calingo/ELECTIONS-CANADA-RESEARCH-PROJECT-Filipino-Canadian-Demographic-Report/blob/main/Figures/Figure2.3.jpg" alt="Medium Image 2" width="400">
