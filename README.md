@@ -27,12 +27,12 @@ The following Excel file is an amalgamation of various datasets taken from Stati
 * <b>Census Profile, 2016 Census of Population:</b> https://www12.statcan.gc.ca/census-recensement/2016/dp-pd/prof/index.cfm?Lang=E
 * <b>2021 Census – Boundary files:</b> https://www12.statcan.gc.ca/census-recensement/2021/geo/sip-pis/boundary-limites/index2021-eng.cfm?year=21
 
-The following is the R Script used for the quantitative analysis portion of the reporting: [Link to download](https://raw.githubusercontent.com/Francis-Calingo/ELECTIONS-CANADA-RESEARCH-PROJECT-Filipino-Canadian-Demographic-Report/refs/heads/main/PROFILE%20OF%20THE%20FILIPINO%20CANADIAN%20COMMUNITY%20(BY%20ELECTORAL%20DISTRICTS).R).
+The following is the R Script used for the quantitative analysis portion of the reporting: [Link to download](https://github.com/Francis-Calingo/ELECTIONS-CANADA-RESEARCH-PROJECT-Filipino-Canadian-Demographic-Report/raw/main/PROFILE%20OF%20THE%20FILIPINO%20CANADIAN%20COMMUNITY%20(BY%20ELECTORAL%20DISTRICTS).R).
 * <b>IDEs Used:</b> RStudio
 * <b>R Version:</b> rstudio-2024.12.0
 * <b>Libraries:</b> data.table, funModeling, Hmisc, ggplot2, sf, dplyr, corrplot, CatEncoders
 
-The following is the report sent to senior analysts of the EMC: [Link to download](https://github.com/Francis-Calingo/CATEGORICAL-SOCIOECONOMIC-DATA-ANALYSIS-OF-CANADIAN-REGIONS/raw/refs/heads/main/PROFILE%20OF%20THE%20FILIPINO%20CANADIAN%20COMMUNITY%20(BY%20ELECTORAL%20DISTRICTS).pdf).
+The following is the report sent to senior analysts of the EMC: [Link to download](https://github.com/Francis-Calingo/ELECTIONS-CANADA-RESEARCH-PROJECT-Filipino-Canadian-Demographic-Report/raw/main/PROFILE%20OF%20THE%20FILIPINO%20CANADIAN%20COMMUNITY%20(BY%20ELECTORAL%20DISTRICTS).pdf).
 
 
 # Data Structure and Initial Checks
