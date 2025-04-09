@@ -51,7 +51,7 @@ The companies main database structure as seen below consists of four tables: tab
 
 ### Overview of Findings
 
-Tagalog remains the dominant Philippine-based language used by the Filipino community based on the number of ridings where Tagalog was identified as the most-used Philippine language in the 2021 Census [Figure 2.1].
+Ilocano and Cebuano remain the dominant secondary Philippine-based language (i.e., non-Tagalog) used by the Filipino community based on the number of ridings where either or were identified as the most-used Philippine language in the 2021 Census. [Figure 2.1].
 
 
 The correlation analysis showed that Filipino presence (i.e., % of census respondents in a riding that identified as Filipino) is most strongly correlated with the % of recent immigrants (i.e., immigrated between 2016-2021) (0.37) followed by French language use (-0.34) [Figure 2.2].
@@ -59,7 +59,16 @@ The correlation analysis showed that Filipino presence (i.e., % of census respon
 
 Four choropleth maps were created for this analysis, but the map that stood out the most was the choropleth map showing the growth rate of the Filipino population by riding between 2016-2021, with Eastern Canada showing a comparatively high growth rate compared to the rest of Canada [Figure 2.3].
 
-
+<div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px;">
+  <!-- Large Image (spans across all columns) -->
+  <img src="https://github.com/Francis-Calingo/ELECTIONS-CANADA-RESEARCH-PROJECT-Filipino-Canadian-Demographic-Report/blob/main/Figures/Figure2.1.jpg"" alt="Large Image" width="600" style="grid-column: span 3;">
+  
+  <!-- Medium Image 1 -->
+  <img src="https://github.com/Francis-Calingo/ELECTIONS-CANADA-RESEARCH-PROJECT-Filipino-Canadian-Demographic-Report/blob/main/Figures/Figure2.2.jpg" alt="Medium Image 1" width="400">
+  
+  <!-- Medium Image 2 -->
+  <img align="center" src="https://github.com/Francis-Calingo/ELECTIONS-CANADA-RESEARCH-PROJECT-Filipino-Canadian-Demographic-Report/blob/main/Figures/Figure2.3.jpg" alt="Medium Image 2" width="400">
+</div>
 
 
 
