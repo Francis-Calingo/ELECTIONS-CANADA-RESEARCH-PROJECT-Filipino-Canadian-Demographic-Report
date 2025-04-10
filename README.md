@@ -37,14 +37,71 @@ The following is the report sent to senior analysts of the EMC: [Link to downloa
 
 # Data Structure and Initial Checks
 
-The companies main database structure as seen below consists of four tables: table1, table2, table3, table4, with a total row count of X records. A description of each table is as follows:
-- **Table 2:**
-- **Table 3:**
-- **Table 4:**
-- **Table 5:**
+The Excel file has a total of **12,506 entries (37 fields x 338 records)**
 
-[Entity Relationship Diagram here]
+<details><summary><b>FIELDS</b></summary> 
 
+<b>VARIABLES SCRAPPED FROM STATISTICS CANADA</b>
+<li>Electoral District (2013 Representation Order)</li>
+<li>Province/Territory</li>
+<li>Population (2021 Census)</li>
+<li>% Filipinos</li>
+<li>Number of Filipinos (2021 Census)</li>
+<li>Number of Filipinos (2016 Census)</li>
+<li>% of Population with Knowledge of French</li>
+<li>Healthcare Workers (NOC Classification)</li>
+<li>Number of Recent Immigrants (2016-2021)</li>
+<li>Recent Immigrants from PH (2016-2021)</li>
+<li>Number of People with Bachelors Degree or Higher</li>
+<li>Median Age</li>
+<li>Bikol Mother Tongue</li>
+<li>Bisaya, n.o.s. Mother Tongue</li>
+<li>Cebuano Mother Tongue</li>
+<li>Hiligaynon Mother Tongue</li>
+<li>Ilocano Mother Tongue</li>
+<li>Kankanaey Mother Tongue</li>
+<li>Kinaray-a Mother Tongue</li>
+<li>Pampangan Mother Tongue</li>
+<li>Pangasinan Mother Tongue</li>
+<li>Tagalog Mother Tongue</li>
+<li>Waray-Waray Mother Tongue</li>
+
+<b>CONSTRUCTED VARIABLES:</b>
+<li>Second Most Spoken Philippine Language</li>
+<li>Healthcare Workers (per 100,000)</li>
+<li>% of Recent Immigrants from PH (2016-2021)</li>
+<li>Number of People with Bachelor's Degree or Higher (per 100,000)</li>
+<li>Filipino Growth Rate (2016-2021)</li>
+<li>% Second Most Spoken Philippine Language</li>
+
+</details>
+
+The shapefile has ** entries ( fields x 338 records)**
+
+<details><summary><b>FIELDS</b></summary> 
+
+<b>VARIABLES SCRAPPED FROM STATISTICS CANADA</b>
+<li>Electoral District (2013 Representation Order)</li>
+<li>Province/Territory</li>
+<li>Population (2021 Census)</li>
+<li>% Filipinos</li>
+<li>Number of Filipinos (2021 Census)</li>
+<li>Number of Filipinos (2016 Census)</li>
+<li>% of Population with Knowledge of French</li>
+<li>Healthcare Workers (NOC Classification)</li>
+<li>Number of Recent Immigrants (2016-2021)</li>
+<li>Recent Immigrants from PH (2016-2021)</li>
+<li>Number of People with Bachelors Degree or Higher</li>
+<li>Median Age</li>
+<li>Bikol Mother Tongue</li>
+
+</details>
+
+The following two entity relationship diagrams helps visualize the data workflow:
+
+<b>Figure 1.1: Creating the main Excel File</b>
+
+<b>Figure 1.2: Amalgamating geospatial data from the shapefile with certain variables from the Excel files to create choropleth maps via R's sf library</b>
 
 
 # Executive Summary
@@ -78,7 +135,7 @@ Four choropleth maps were created for this analysis, but the map that stood out 
 
 
 # Insights Deep Dive
-### Category 1:
+### Exploratory Data Analysis:
 
 * **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
   
@@ -91,7 +148,7 @@ Four choropleth maps were created for this analysis, but the map that stood out 
 [Visualization specific to category 1]
 
 
-### Category 2:
+### Correlation Analysis:
 
 * **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
   
@@ -104,7 +161,7 @@ Four choropleth maps were created for this analysis, but the map that stood out 
 [Visualization specific to category 2]
 
 
-### Category 3:
+### Geospatial Analysis:
 
 * **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
   
@@ -117,23 +174,9 @@ Four choropleth maps were created for this analysis, but the map that stood out 
 [Visualization specific to category 3]
 
 
-### Category 4:
-
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-
-[Visualization specific to category 4]
-
-
-
 # Recommendations:
 
-Based on the insights and findings above, we would recommend the [stakeholder team] to consider the following: 
+Based on the insights and findings above, we would recommend the agency to consider the following: 
 
 * Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
   
@@ -187,42 +230,7 @@ Throughout the analysis, multiple assumptions were made to manage challenges wit
 
  </details>
 
-<details><summary><h2>Feature Engineering</h2></summary> 
 
-<b>VARIABLES SCRAPPED FROM STATISTICS CANADA</b>
-<li>Electoral District (2013 Representation Order)</li>
-<li>Province/Territory</li>
-<li>Population (2021 Census)</li>
-<li>% Filipinos</li>
-<li>Number of Filipinos (2021 Census)</li>
-<li>Number of Filipinos (2016 Census)</li>
-<li>% of Population with Knowledge of French</li>
-<li>Healthcare Workers (NOC Classification)</li>
-<li>Number of Recent Immigrants (2016-2021)</li>
-<li>Recent Immigrants from PH (2016-2021)</li>
-<li>Number of People with Bachelors Degree or Higher</li>
-<li>Median Age</li>
-<li>Bikol Mother Tongue</li>
-<li>Bisaya, n.o.s. Mother Tongue</li>
-<li>Cebuano Mother Tongue</li>
-<li>Hiligaynon Mother Tongue</li>
-<li>Ilocano Mother Tongue</li>
-<li>Kankanaey Mother Tongue</li>
-<li>Kinaray-a Mother Tongue</li>
-<li>Pampangan Mother Tongue</li>
-<li>Pangasinan Mother Tongue</li>
-<li>Tagalog Mother Tongue</li>
-<li>Waray-Waray Mother Tongue</li>
-<li>Second Most Spoken Philippine Language</li>
-
-<b>CONSTRUCTED VARIABLES:</b>
-<li>Healthcare Workers (per 100,000)</li>
-<li>% of Recent Immigrants from PH (2016-2021)</li>
-<li>Number of People with Bachelor's Degree or Higher (per 100,000)</li>
-<li>Filipino Growth Rate (2016-2021)</li>
-<li>% Second Most Spoken Philippine Language</li>
-
-</details>
 
 <details><summary><h2>Exploratory Data Analysis</h2></summary> 
 
