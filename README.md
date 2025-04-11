@@ -101,6 +101,9 @@ The following two entity relationship diagrams helps visualize the data workflow
 
 <b>Figure 1.1: Creating the main Excel File</b>
 
+<img align="center" src="https://github.com/Francis-Calingo/ELECTIONS-CANADA-RESEARCH-PROJECT-Filipino-Canadian-Demographic-Report/blob/main/Figures/Figure1.1.jpg" alt="Figure 1.1" width="600">
+
+
 <b>Figure 1.2: Amalgamating geospatial data from the shapefile with certain variables from the Excel files to create choropleth maps via R's sf library</b>
 
 
@@ -110,27 +113,18 @@ The following two entity relationship diagrams helps visualize the data workflow
 
 Ilocano and Cebuano remain the dominant secondary Philippine-based language (i.e., non-Tagalog) used by the Filipino community based on the number of ridings where either or were identified as the most-used Philippine language in the 2021 Census. [Figure 2.1].
 
+<img align="center"
+    src="https://github.com/Francis-Calingo/ELECTIONS-CANADA-RESEARCH-PROJECT-Filipino-Canadian-Demographic-Report/blob/main/Figures/Figure2.1.jpg"
+    alt="Figure 2.1" width="600" />
 
 The correlation analysis showed that Filipino presence (i.e., % of census respondents in a riding that identified as Filipino) is most strongly correlated with the % of recent immigrants (i.e., immigrated between 2016-2021) (0.37) followed by French language use (-0.34) [Figure 2.2].
 
+  <img align="center" src="https://github.com/Francis-Calingo/ELECTIONS-CANADA-RESEARCH-PROJECT-Filipino-Canadian-Demographic-Report/blob/main/Figures/Figure2.2.jpg" alt="Figure 2.2" width="600">
 
 Four choropleth maps were created for this analysis, but the map that stood out the most was the choropleth map showing the growth rate of the Filipino population by riding between 2016-2021, with Eastern Canada showing a comparatively high growth rate compared to the rest of Canada [Figure 2.3].
 
-<div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px;">
-  <!-- Large Image (spans across all columns) -->
-  <figure>
-  <img
-    src="https://github.com/Francis-Calingo/ELECTIONS-CANADA-RESEARCH-PROJECT-Filipino-Canadian-Demographic-Report/blob/main/Figures/Figure2.1.jpg"
-    alt="Medium Image 1" width="600" />
-  <figcaption>Figure 2.1</figcaption>
-</figure>
-  
-  <!-- Medium Image 1 -->
-  <img src="https://github.com/Francis-Calingo/ELECTIONS-CANADA-RESEARCH-PROJECT-Filipino-Canadian-Demographic-Report/blob/main/Figures/Figure2.2.jpg" >
-  
-  <!-- Medium Image 2 -->
-  <img align="center" src="https://github.com/Francis-Calingo/ELECTIONS-CANADA-RESEARCH-PROJECT-Filipino-Canadian-Demographic-Report/blob/main/Figures/Figure2.3.jpg" alt="Medium Image 2" width="400">
-</div>
+  <img align="center" src="https://github.com/Francis-Calingo/ELECTIONS-CANADA-RESEARCH-PROJECT-Filipino-Canadian-Demographic-Report/blob/main/Figures/Figure2.3.jpg" alt="Figure 2.3" width="600">
+
 
 
 
