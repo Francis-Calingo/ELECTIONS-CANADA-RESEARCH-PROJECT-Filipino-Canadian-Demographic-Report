@@ -8,6 +8,7 @@
 * [Recommendations](#recommendations)
 * [Assumptions and Caveats](#assumptions-and-caveats)
 
+---
 
 # Project Background
 Elections Canada, Canada’s non-partisan government agency responsible for the administration of federal-level elections and matters related to Canadian democratic institutions, is home to the Environmental Monitoring Centre (EMC), which monitors Canadian public sentiment of electoral affairs and democracy from the traditional and social media environment, and reports their findings weekly to the Chief Electoral Officer. Established right before the COVID-19 pandemic, it has since grown its capacity to not only monitor more “niche” platforms, but also monitor non-official language media (i.e., non-English and non-French posts and outlets). 
@@ -34,6 +35,7 @@ The following is the R Script used for the quantitative analysis portion of the 
 
 The following is the report sent to senior analysts of the EMC: [Link to download](https://github.com/Francis-Calingo/ELECTIONS-CANADA-RESEARCH-PROJECT-Filipino-Canadian-Demographic-Report/raw/main/PROFILE%20OF%20THE%20FILIPINO%20CANADIAN%20COMMUNITY%20(BY%20ELECTORAL%20DISTRICTS).pdf).
 
+---
 
 # Data Structure and Initial Checks
 
@@ -106,6 +108,8 @@ The following two entity relationship diagrams helps visualize the data workflow
 
 <b>Figure 1.2: Amalgamating geospatial data from the shapefile with certain variables from the Excel files to create choropleth maps via R's sf library</b>
 
+---
+
 
 # Executive Summary
 
@@ -125,8 +129,7 @@ Four choropleth maps were created for this analysis, but the map that stood out 
 
   <img align="center" src="https://github.com/Francis-Calingo/ELECTIONS-CANADA-RESEARCH-PROJECT-Filipino-Canadian-Demographic-Report/blob/main/Figures/Figure2.3.jpg" alt="Figure 2.3" width="600">
 
-
-
+---
 
 # Insights Deep Dive
 ### Exploratory Data Analysis:
