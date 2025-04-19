@@ -135,7 +135,7 @@ Four choropleth maps were created for this analysis, but the map that stood out 
 ### Exploratory Data Analysis:
 
 * **A few ridings experienced extremely high growth rates for their Filipino population.** While the majority riding-level Filipino populations grew by less than 100% between 2016-2021, a few experienced growth rates in the 400-800% range. [Figure 3.1]
-<img align="center" src="https://github.com/Francis-Calingo/ELECTIONS-CANADA-RESEARCH-PROJECT-Filipino-Canadian-Demographic-Report/blob/main/Figures/Figure3.1.JPG" alt="Figure 3.1" width="600">
+<img align="center" src="https://github.com/Francis-Calingo/ELECTIONS-CANADA-RESEARCH-PROJECT-Filipino-Canadian-Demographic-Report/blob/main/Figures/Figure3.1.JPG" alt="Figure 3.1" width="300">
   
 * **The breakdown of secondary Philippine languages (i.e., non-Tagalog languages) is dominated by Ilocano and Cebuano.** 308 out of 338 ridings (91.12%) reported either Cebuano, Ilocano, a combination of the two, or a combination of the two with another language as the most-spoken non-Tagalog Philippine language. 23 ridings (6.8%) did not record any secondary Philippine language speaker while only 7 (2.07%) reported another language as the second most-spoken Philippine language. [Figure 3.2]
 <img align="center" src="https://github.com/Francis-Calingo/ELECTIONS-CANADA-RESEARCH-PROJECT-Filipino-Canadian-Demographic-Report/blob/main/Figures/Figure3.2.jpg" alt="Figure 3.2" width="600">
