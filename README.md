@@ -134,9 +134,9 @@ Four choropleth maps were created for this analysis, but the map that stood out 
 # Insights Deep Dive
 ### Exploratory Data Analysis:
 
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **A few ridings experienced extremely high growth rates for their Filipino population.** While the majority riding-level Filipino populations grew by less than 100% between 2016-2021, a few experienced growth rates in the 400-800% range. [Figure 3.1]
   
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **The breakdown of secondary Philippine languages (i.e., non-Tagalog languages) is dominated by Ilocano and Cebuano.** 308 out of 338 ridings (91.12%) reported either Cebuano, Ilocano, a combination of the two, or a combination of the two with another language as the most-spoken non-Tagalog Philippine language. 23 ridings (6.8%) did not record any secondary Philippine language speaker while only 7 (2.07%) reported another language as the second most-spoken Philippine language. [Figure 3.2]
   
 * **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
   
@@ -147,45 +147,44 @@ Four choropleth maps were created for this analysis, but the map that stood out 
 
 ### Correlation Analysis:
 
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Most variables with respect to “% of population who is Filipino” as well as “% of recent immigrants from the PH (2016-21)” are weakly correlated.** Only three correlation scores were either less than -0.35 or greater than 0.35. [Figure 4.1]
   
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **“% of recent immigrants from the PH (2016-21)” and “Province/Territory”(label encoded) exhibited the strongest correlation.** There was a correlation score of -0.41, the only correlation score that was greater than 0.4 in absolute terms. [Figure 4.1]
   
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **“% of recent immigrants from the PH (2016-21)” and “% of population who is Filipino” exhibited the second strongest correlation.** There was a correlation score of 0.37. [Figure 4.1]
   
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **“% of recent immigrants from the PH (2016-21)” and “% of population with knowledge of French”.** There was a correlation score of -0.37. [Figure 4.1]
 
 [Visualization specific to category 2]
 
 
 ### Geospatial Analysis:
 
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Filipinos are more concentrated in Western and Northern Canada.** British Columbia, Prairie provinces, Yukon, and Northwest Territories are home to many ridings where at least 2.5% of the population identify as Filipino, while the vast majority of ridings east of Manitoba have less than 1% of their populations identifying as such (with the notable exception of Greater Toronto Area and a few urban ridings). [Figure 5.1]
   
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Recent immigration patterns exhibit differences between more rural ridings and more urban ridings.** Besides Southern Ontario and Quebec, where the patterns are quite scattered, most urban ridings in the country recorded that only a small portion of their recent immigrant population (i.e., less than 10% of immigrant who migrated to Canada between 2016-2021) come from the Philippines, while the reverse (i.e., a plurality or majority of the recent immigrant population) is generally true across more rural ridings. [Figure 5.2]
   
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **There were no discernible broad patterns in terms of secondary Philippine language use.** Some patterns exist at a provincial and sub-provincial level (e.g., Ilocano being the second most-used Philippine language in Northern Alberta and broad swaths of Southern Ontario, Cebuano usage being notable in rural Saskatchewan, and many Quebec ridings having no recorded usage of secondary Philippine languages).  [Figure 5.3]
 
-[Visualization specific to category 3]
+  
+* **Filipino growth is concentrated in Eastern Canada.** Most ridings that recorded a growth rate of over 200% for their Filipino population (2016-2021) are based in Atlantic Canada or Quebec, with rural ridings (particularly in Western Canada) exhibiting moderate growth rates (i.e., at least 50%).  [Figure 5.4]
 
+---
 
 # Recommendations:
 
 Based on the insights and findings above, we would recommend the agency to consider the following: 
 
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-  
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-  
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-  
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-  
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-  
+* There is variability across the country in terms of the growth rate of the Filipino population, as well as their presence. For regions where the presence of Filipinos is a relatively new but rapidly growing phenomenon, particularly in the Maritimes, the agency should consider working with Immigration, Refugees and Citizenship Canada in informing newly-landed Filipino migrants about civic engagement so that they are provided with the proper tools and resources when they become eligible to vote (i.e., after they become Canadian citizens). **For regions with more established Filipino populations such as Winnipeg and in major urban centres of British Columbia and Ontario, the agency should look to collaborate with established Filipino organizations in mitigating barriers to voting for the local Filipino populations.
+From the categorical bar plot measuring secondary Philippine language use by ridings, Ilocano and Cebuano were dominant. Elections Canada should consider producing Ilocano and Cebuano language resources (e.g., have translations of voter information resources available).**
 
+* From the categorical bar plot measuring secondary Philippine language use by ridings, Ilocano and Cebuano were dominant. **Elections Canada should consider producing Ilocano and Cebuano language resources (e.g., have translations of voter information resources available).**
+  
+* From the correlation analysis, we saw that Filipino presence is most strongly correlated with geographic location (i.e., province and territory, which, in turn, is moderately correlated with French language use), % of recent immigrants coming from the Philippines, and French language use. **Therefore, the agency should consider: (1) increasing French language accessibility for Filipino voters, whose settlement pattern suggests that French language barriers remain a major obstacle (2) increasing capacity for making Tagalog (and other Philippine-based languages) available, especially in locations that have seen a rapid growth of immigrants coming from the Philippines.**
+  
+* From the spatial analysis surfaced from the four choropleth maps, the main takeaways were that the Filipino community is rapidly growing in Eastern Canadian and rural ridings-as evidenced by the many ridings where they make up the plurality or majority of recent immigrants, although the Filipino population remains concentrated in Western Canadian ridings (rural and urban) and the Greater Toronto Area. **The agency should monitor the experiences of Filipino voters in those regions and prepare to respond to any accessibility concerns pertinent to that community. (e.g., equip staff who are deployed to the Maritimes region of Canada with multilingual training to better prepare them for an increase of eligible voters from across different language communities, including from the Filipino community, in the coming years.)**
+
+---
 
 # Assumptions and Caveats:
 
@@ -194,6 +193,8 @@ Throughout the analysis, multiple assumptions were made to manage challenges wit
 * Ridings boundaries were based on the 2013 representation order. As there was no shapefile available for the current riding boundaries (based on the 2023 representation order), the shapefile for the 2013 representation order was used instead. An updated version of this analysis will need to be performed once that shapefile is available (Census data already accounts for the updated boundaries).
   
 * Data was mostly scraped from 2021 Census data (the next census year is 2026). The astronomical increases in migration into Canada since then (permanent and non-permanent) may render the analysis slightly outdated.
+  
+* The data utilized analyzed the Filipino Canadian population as a whole. It does not specify the breakdown of that population in terms of citizenship (i.e., Canadian citizens vs. permanent residents vs. non-permanent residents). That is an important caveat to note because only Canadian citizens are eligible to vote in Canadian federal elections. Therefore, a rapid increase of the Filipino population in certain ridings may not automatically translate to an rapid increase in eligible Filipino Canadian voters, as the growth could be largely fuelled by non-permanent migration (made more likely by the rapid growth of the non-permanent resident population as a whole in Canada over the past few years).
   
 
 
