@@ -135,8 +135,10 @@ Four choropleth maps were created for this analysis, but the map that stood out 
 ### Exploratory Data Analysis:
 
 * **A few ridings experienced extremely high growth rates for their Filipino population.** While the majority riding-level Filipino populations grew by less than 100% between 2016-2021, a few experienced growth rates in the 400-800% range. [Figure 3.1]
+<img align="center" src="https://github.com/Francis-Calingo/ELECTIONS-CANADA-RESEARCH-PROJECT-Filipino-Canadian-Demographic-Report/blob/main/Figures/Figure3.1.jpg" alt="Figure 3.1" width="600">
   
 * **The breakdown of secondary Philippine languages (i.e., non-Tagalog languages) is dominated by Ilocano and Cebuano.** 308 out of 338 ridings (91.12%) reported either Cebuano, Ilocano, a combination of the two, or a combination of the two with another language as the most-spoken non-Tagalog Philippine language. 23 ridings (6.8%) did not record any secondary Philippine language speaker while only 7 (2.07%) reported another language as the second most-spoken Philippine language. [Figure 3.2]
+<img align="center" src="https://github.com/Francis-Calingo/ELECTIONS-CANADA-RESEARCH-PROJECT-Filipino-Canadian-Demographic-Report/blob/main/Figures/Figure3.2.jpg" alt="Figure 3.2" width="600">
   
 * **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
   
@@ -155,19 +157,22 @@ Four choropleth maps were created for this analysis, but the map that stood out 
   
 * **“% of recent immigrants from the PH (2016-21)” and “% of population with knowledge of French”.** There was a correlation score of -0.37. [Figure 4.1]
 
-[Visualization specific to category 2]
+<img align="center" src="https://github.com/Francis-Calingo/ELECTIONS-CANADA-RESEARCH-PROJECT-Filipino-Canadian-Demographic-Report/blob/main/Figures/Figure4.1.jpg" alt="Figure 4.1" width="600">
 
 
 ### Geospatial Analysis:
 
 * **Filipinos are more concentrated in Western and Northern Canada.** British Columbia, Prairie provinces, Yukon, and Northwest Territories are home to many ridings where at least 2.5% of the population identify as Filipino, while the vast majority of ridings east of Manitoba have less than 1% of their populations identifying as such (with the notable exception of Greater Toronto Area and a few urban ridings). [Figure 5.1]
-  
+<img align="center" src="https://github.com/Francis-Calingo/ELECTIONS-CANADA-RESEARCH-PROJECT-Filipino-Canadian-Demographic-Report/blob/main/Figures/Figure5.1.jpg" alt="Figure 5.1" width="600">
+
 * **Recent immigration patterns exhibit differences between more rural ridings and more urban ridings.** Besides Southern Ontario and Quebec, where the patterns are quite scattered, most urban ridings in the country recorded that only a small portion of their recent immigrant population (i.e., less than 10% of immigrant who migrated to Canada between 2016-2021) come from the Philippines, while the reverse (i.e., a plurality or majority of the recent immigrant population) is generally true across more rural ridings. [Figure 5.2]
+<img align="center" src="https://github.com/Francis-Calingo/ELECTIONS-CANADA-RESEARCH-PROJECT-Filipino-Canadian-Demographic-Report/blob/main/Figures/Figure5.2.jpg" alt="Figure 5.2" width="600">
   
 * **There were no discernible broad patterns in terms of secondary Philippine language use.** Some patterns exist at a provincial and sub-provincial level (e.g., Ilocano being the second most-used Philippine language in Northern Alberta and broad swaths of Southern Ontario, Cebuano usage being notable in rural Saskatchewan, and many Quebec ridings having no recorded usage of secondary Philippine languages).  [Figure 5.3]
+<img align="center" src="https://github.com/Francis-Calingo/ELECTIONS-CANADA-RESEARCH-PROJECT-Filipino-Canadian-Demographic-Report/blob/main/Figures/Figure5.3.jpg" alt="Figure 5.3" width="600">
 
-  
 * **Filipino growth is concentrated in Eastern Canada.** Most ridings that recorded a growth rate of over 200% for their Filipino population (2016-2021) are based in Atlantic Canada or Quebec, with rural ridings (particularly in Western Canada) exhibiting moderate growth rates (i.e., at least 50%).  [Figure 5.4]
+<img align="center" src="https://github.com/Francis-Calingo/ELECTIONS-CANADA-RESEARCH-PROJECT-Filipino-Canadian-Demographic-Report/blob/main/Figures/Figure5.4.jpg" alt="Figure 5.4" width="600">
 
 ---
 
