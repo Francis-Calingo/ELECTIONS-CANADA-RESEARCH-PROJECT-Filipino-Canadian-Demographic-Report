@@ -78,24 +78,20 @@ The Excel file has a total of **12,506 entries (37 fields x 338 records)**
 
 </details>
 
-The shapefile has ** entries ( fields x 338 records)**
+The shapefile has **2,366 entries (7 fields x 338 records)**. 
+
+Ir is important to note that the shapefile was extracted from a zip file that was downloaded from the Boundary files webpage of Statistics Canada. There are no associated CSVs, so in order to ascertain the fields, the shapefile needed to be exported as a CSV file via QGIS.
+As you can see, most of the fields are irrelevant in isolation besides FEDENAME, which houses the English names of the ridings *in order* . The csv itself is not needed, the shapefile is. [But it is in this repo for reference](https://github.com/Francis-Calingo/ELECTIONS-CANADA-RESEARCH-PROJECT-Filipino-Canadian-Demographic-Report/blob/main/Shapefile_Features.csv) to better understand the structure of the shapefile as well as the workflow of merging it with the main CSV file to create choropleth maps in R [Figure 1.2].
 
 <details><summary><b>FIELDS</b></summary> 
 
-<b>VARIABLES SCRAPPED FROM STATISTICS CANADA</b>
-<li>Electoral District (2013 Representation Order)</li>
-<li>Province/Territory</li>
-<li>Population (2021 Census)</li>
-<li>% Filipinos</li>
-<li>Number of Filipinos (2021 Census)</li>
-<li>Number of Filipinos (2016 Census)</li>
-<li>% of Population with Knowledge of French</li>
-<li>Healthcare Workers (NOC Classification)</li>
-<li>Number of Recent Immigrants (2016-2021)</li>
-<li>Recent Immigrants from PH (2016-2021)</li>
-<li>Number of People with Bachelors Degree or Higher</li>
-<li>Median Age</li>
-<li>Bikol Mother Tongue</li>
+<li>FEDUID</li>
+<li>DGUID</li>
+<li>FEDNAME</li>
+<li>FEDENAME</li>
+<li>FEDFNAME</li>
+<li>LANDAREA</li>
+<li>PRUID</li>
 
 </details>
 
@@ -140,11 +136,13 @@ Four choropleth maps were created for this analysis, but the map that stood out 
 * **The breakdown of secondary Philippine languages (i.e., non-Tagalog languages) is dominated by Ilocano and Cebuano.** 308 out of 338 ridings (91.12%) reported either Cebuano, Ilocano, a combination of the two, or a combination of the two with another language as the most-spoken non-Tagalog Philippine language. 23 ridings (6.8%) did not record any secondary Philippine language speaker while only 7 (2.07%) reported another language as the second most-spoken Philippine language. [Figure 3.2]
 <img align="center" src="https://github.com/Francis-Calingo/ELECTIONS-CANADA-RESEARCH-PROJECT-Filipino-Canadian-Demographic-Report/blob/main/Figures/Figure3.2.jpg" alt="Figure 3.2" width="600">
   
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **The Atlantic Region’s Filipino community is characterized by low numbers but rapid growth.** No electoral district exceed 3% in terms of the proportion of its population identifying as Filipino [Figure 3.3], but most ridings are in the triple digits in terms of the growth rate of their Filipino populations (2016-21) [Figure 3.4], while in some instances, people from the Philippines make up over 40% of immigrants that immigrated to Canada between 2016-2021. [Figure 3.5]
   
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-
-[Visualization specific to category 1]
+* **Quebec’s francophone nature remains a barrier for Filipinos, as, despite their increasing presence in some parts of the province, they only make up less than 1% of the population in the vast majority of the ridings.** Quebec’s unique nature with regards with migration and settlement patterns in comparison with the rest of the country is punctuated by Figure 3.6, which shows that while some ridings experienced Filipino growth rates in the triple digits, the vast majority experienced moderate growth (and some even experiencing negative growth rate), resulting in continually low numbers of Filipinos settling and currently living in Quebec.
+  
+* **Since Filipinos already have an established history in Ontario and BC (with the Greater Toronto Area and Metro Vancouver being the primary destinations for Filipino immigrants coming to Canada), and since international migration to both provinces is highly diverse, Filipino migration to both provinces is not as impactful as Filipino migration to other provinces.** The categorical bar plots corroborates that, with most ridings recording less than 60% growth rate in their Filipino population while migrants from the Philippines do not make up more than 10% of their recent immigrant population, although unlike Quebec, Filipinos continue to have a strong presence in Ontario and BC, with some ridings’ Filipino population percentage exceeding 5% (and 10% in some cases). [Figures 3.7, 3.8]
+  
+* **The Filipino population continues to grow steadily, both in Manitoba, where their long established history there has made Winnipeg the Canadian city with the highest per-capita Filipino population, and in the rest of the Prairies.** As a consequence of the aforementioned history, one Manitoba riding recorded over 30% of its population identifying as Filipino. While settlement patterns are quite varied, Filipinos in the prairies continue to increase steadily in numbers, remaining an important part in Alberta’s continuing rapid population growth, increasing their presence in Saskatchewan where their presence is still relatively new, and continuing to add to Manitoba’s long standing Filipino population history.[Figures 3.9, 3.10. 3.11]
 
 
 ### Correlation Analysis:
