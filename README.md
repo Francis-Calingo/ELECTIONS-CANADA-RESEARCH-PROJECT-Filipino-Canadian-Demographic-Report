@@ -98,11 +98,16 @@ As you can see, most of the fields are irrelevant in isolation besides FEDENAME,
 The following two entity relationship diagrams helps visualize the data workflow:
 
 <b>Figure 1.1: Creating the main Excel File</b>
-
+<figure>
 <img align="center" src="https://github.com/Francis-Calingo/ELECTIONS-CANADA-RESEARCH-PROJECT-Filipino-Canadian-Demographic-Report/blob/main/Figures/Figure1.1.jpg" alt="Figure 1.1" width="600">
+          <figcaption>Figure 1.1</figcaption>
+    </figure>
 
 
 <b>Figure 1.2: Amalgamating geospatial data from the shapefile with certain variables from the Excel files to create choropleth maps via R's sf library</b>
+<figure>
+          <figcaption>Figure 1.2</figcaption>
+    </figure>
 
 ---
 
@@ -112,18 +117,24 @@ The following two entity relationship diagrams helps visualize the data workflow
 ### Overview of Findings
 
 Ilocano and Cebuano remain the dominant secondary Philippine-based language (i.e., non-Tagalog) used by the Filipino community based on the number of ridings where either or were identified as the most-used Philippine language in the 2021 Census. [Figure 2.1].
-
+<figure>
 <img align="center"
     src="https://github.com/Francis-Calingo/ELECTIONS-CANADA-RESEARCH-PROJECT-Filipino-Canadian-Demographic-Report/blob/main/Figures/Figure2.1.jpg"
     alt="Figure 2.1" width="600" />
+              <figcaption>Figure 2.1</figcaption>
+    </figure>
 
 The correlation analysis showed that Filipino presence (i.e., % of census respondents in a riding that identified as Filipino) is most strongly correlated with the % of recent immigrants (i.e., immigrated between 2016-2021) (0.37) followed by French language use (-0.34) [Figure 2.2].
-
+<figure>
   <img align="center" src="https://github.com/Francis-Calingo/ELECTIONS-CANADA-RESEARCH-PROJECT-Filipino-Canadian-Demographic-Report/blob/main/Figures/Figure2.2.jpg" alt="Figure 2.2" width="600">
+            <figcaption>Figure 2.2</figcaption>
+    </figure>
 
 Four choropleth maps were created for this analysis, but the map that stood out the most was the choropleth map showing the growth rate of the Filipino population by riding between 2016-2021, with Eastern Canada showing a comparatively high growth rate compared to the rest of Canada [Figure 2.3].
-
+<figure>
   <img align="center" src="https://github.com/Francis-Calingo/ELECTIONS-CANADA-RESEARCH-PROJECT-Filipino-Canadian-Demographic-Report/blob/main/Figures/Figure2.3.jpg" alt="Figure 2.3" width="600">
+          <figcaption>Figure 2.3</figcaption>
+    </figure>
 
 ---
 
@@ -131,19 +142,68 @@ Four choropleth maps were created for this analysis, but the map that stood out 
 ### Exploratory Data Analysis:
 
 * **A few ridings experienced extremely high growth rates for their Filipino population.** While the majority riding-level Filipino populations grew by less than 100% between 2016-2021, a few experienced growth rates in the 400-800% range. [Figure 3.1]
+<figure>
 <img align="center" src="https://github.com/Francis-Calingo/ELECTIONS-CANADA-RESEARCH-PROJECT-Filipino-Canadian-Demographic-Report/blob/main/Figures/Figure3.1.JPG" alt="Figure 3.1" width="300">
+        <figcaption>Figure 3.1</figcaption>
+    </figure>
   
 * **The breakdown of secondary Philippine languages (i.e., non-Tagalog languages) is dominated by Ilocano and Cebuano.** 308 out of 338 ridings (91.12%) reported either Cebuano, Ilocano, a combination of the two, or a combination of the two with another language as the most-spoken non-Tagalog Philippine language. 23 ridings (6.8%) did not record any secondary Philippine language speaker while only 7 (2.07%) reported another language as the second most-spoken Philippine language. [Figure 3.2]
+<figure>
 <img align="center" src="https://github.com/Francis-Calingo/ELECTIONS-CANADA-RESEARCH-PROJECT-Filipino-Canadian-Demographic-Report/blob/main/Figures/Figure3.2.jpg" alt="Figure 3.2" width="600">
+        <figcaption>Figure 3.2</figcaption>
+    </figure>
   
 * **The Atlantic Region’s Filipino community is characterized by low numbers but rapid growth.** No electoral district exceed 3% in terms of the proportion of its population identifying as Filipino [Figure 3.3], but most ridings are in the triple digits in terms of the growth rate of their Filipino populations (2016-21) [Figure 3.4], while in some instances, people from the Philippines make up over 40% of immigrants that immigrated to Canada between 2016-2021. [Figure 3.5]
+<figure>
+<img align="center" src="https://github.com/Francis-Calingo/ELECTIONS-CANADA-RESEARCH-PROJECT-Filipino-Canadian-Demographic-Report/blob/main/Figures/Figure3.3.jpg" alt="Figure 3.3" width="600">
+        <figcaption>Figure 3.3</figcaption>
+    </figure>
+
+<figure>
+<img align="center" src="https://github.com/Francis-Calingo/ELECTIONS-CANADA-RESEARCH-PROJECT-Filipino-Canadian-Demographic-Report/blob/main/Figures/Figure3.4.jpg" alt="Figure 3.4" width="600">
+        <figcaption>Figure 3.4</figcaption>
+    </figure>
+
+<figure>
+<img align="center" src="https://github.com/Francis-Calingo/ELECTIONS-CANADA-RESEARCH-PROJECT-Filipino-Canadian-Demographic-Report/blob/main/Figures/Figure3.5.jpg" alt="Figure 3.5" width="600">
+        <figcaption>Figure 3.5</figcaption>
+    </figure>
   
 * **Quebec’s francophone nature remains a barrier for Filipinos, as, despite their increasing presence in some parts of the province, they only make up less than 1% of the population in the vast majority of the ridings.** Quebec’s unique nature with regards with migration and settlement patterns in comparison with the rest of the country is punctuated by Figure 3.6, which shows that while some ridings experienced Filipino growth rates in the triple digits, the vast majority experienced moderate growth (and some even experiencing negative growth rate), resulting in continually low numbers of Filipinos settling and currently living in Quebec.
+
+<figure>
+<img align="center" src="https://github.com/Francis-Calingo/ELECTIONS-CANADA-RESEARCH-PROJECT-Filipino-Canadian-Demographic-Report/blob/main/Figures/Figure3.6.jpg" alt="Figure 3.6" width="600">
+        <figcaption>Figure 3.6</figcaption>
+    </figure>
+
   
 * **Since Filipinos already have an established history in Ontario and BC (with the Greater Toronto Area and Metro Vancouver being the primary destinations for Filipino immigrants coming to Canada), and since international migration to both provinces is highly diverse, Filipino migration to both provinces is not as impactful as Filipino migration to other provinces.** The categorical bar plots corroborates that, with most ridings recording less than 60% growth rate in their Filipino population while migrants from the Philippines do not make up more than 10% of their recent immigrant population, although unlike Quebec, Filipinos continue to have a strong presence in Ontario and BC, with some ridings’ Filipino population percentage exceeding 5% (and 10% in some cases). [Figures 3.7, 3.8]
+<figure>
+<img align="center" src="https://github.com/Francis-Calingo/ELECTIONS-CANADA-RESEARCH-PROJECT-Filipino-Canadian-Demographic-Report/blob/main/Figures/Figure3.7.jpg" alt="Figure 3.7" width="600">
+        <figcaption>Figure 3.7</figcaption>
+    </figure>
+
+<figure>
+<img align="center" src="https://github.com/Francis-Calingo/ELECTIONS-CANADA-RESEARCH-PROJECT-Filipino-Canadian-Demographic-Report/blob/main/Figures/Figure3.8.jpg" alt="Figure 3.8" width="600">
+        <figcaption>Figure 3.8</figcaption>
+    </figure>
+
   
 * **The Filipino population continues to grow steadily, both in Manitoba, where their long established history there has made Winnipeg the Canadian city with the highest per-capita Filipino population, and in the rest of the Prairies.** As a consequence of the aforementioned history, one Manitoba riding recorded over 30% of its population identifying as Filipino. While settlement patterns are quite varied, Filipinos in the prairies continue to increase steadily in numbers, remaining an important part in Alberta’s continuing rapid population growth, increasing their presence in Saskatchewan where their presence is still relatively new, and continuing to add to Manitoba’s long standing Filipino population history.[Figures 3.9, 3.10. 3.11]
+<figure>
+<img align="center" src="https://github.com/Francis-Calingo/ELECTIONS-CANADA-RESEARCH-PROJECT-Filipino-Canadian-Demographic-Report/blob/main/Figures/Figure3.9.jpg" alt="Figure 3.9" width="600">
+        <figcaption>Figure 3.9</figcaption>
+    </figure>
 
+<figure>
+<img align="center" src="https://github.com/Francis-Calingo/ELECTIONS-CANADA-RESEARCH-PROJECT-Filipino-Canadian-Demographic-Report/blob/main/Figures/Figure3.10.jpg" alt="Figure 3.10" width="600">
+        <figcaption>Figure 3.10</figcaption>
+    </figure>
+
+<figure>
+<img align="center" src="https://github.com/Francis-Calingo/ELECTIONS-CANADA-RESEARCH-PROJECT-Filipino-Canadian-Demographic-Report/blob/main/Figures/Figure3.11.jpg" alt="Figure 3.11" width="600">
+        <figcaption>Figure 3.11</figcaption>
+    </figure>
 
 ### Correlation Analysis:
 
@@ -155,22 +215,37 @@ Four choropleth maps were created for this analysis, but the map that stood out 
   
 * **“% of recent immigrants from the PH (2016-21)” and “% of population with knowledge of French”.** There was a correlation score of -0.37. [Figure 4.1]
 
+<figure>
 <img align="center" src="https://github.com/Francis-Calingo/ELECTIONS-CANADA-RESEARCH-PROJECT-Filipino-Canadian-Demographic-Report/blob/main/Figures/Figure4.1.jpg" alt="Figure 4.1" width="600">
+        <figcaption>Figure 4.1</figcaption>
+    </figure>
 
 
 ### Geospatial Analysis:
 
 * **Filipinos are more concentrated in Western and Northern Canada.** British Columbia, Prairie provinces, Yukon, and Northwest Territories are home to many ridings where at least 2.5% of the population identify as Filipino, while the vast majority of ridings east of Manitoba have less than 1% of their populations identifying as such (with the notable exception of Greater Toronto Area and a few urban ridings). [Figure 5.1]
+<figure>
 <img align="center" src="https://github.com/Francis-Calingo/ELECTIONS-CANADA-RESEARCH-PROJECT-Filipino-Canadian-Demographic-Report/blob/main/Figures/Figure5.1.jpg" alt="Figure 5.1" width="600">
+        <figcaption>Figure 5.1</figcaption>
+    </figure>
 
 * **Recent immigration patterns exhibit differences between more rural ridings and more urban ridings.** Besides Southern Ontario and Quebec, where the patterns are quite scattered, most urban ridings in the country recorded that only a small portion of their recent immigrant population (i.e., less than 10% of immigrant who migrated to Canada between 2016-2021) come from the Philippines, while the reverse (i.e., a plurality or majority of the recent immigrant population) is generally true across more rural ridings. [Figure 5.2]
+<figure>
 <img align="center" src="https://github.com/Francis-Calingo/ELECTIONS-CANADA-RESEARCH-PROJECT-Filipino-Canadian-Demographic-Report/blob/main/Figures/Figure5.2.jpg" alt="Figure 5.2" width="600">
+        <figcaption>Figure 5.2</figcaption>
+    </figure>
   
 * **There were no discernible broad patterns in terms of secondary Philippine language use.** Some patterns exist at a provincial and sub-provincial level (e.g., Ilocano being the second most-used Philippine language in Northern Alberta and broad swaths of Southern Ontario, Cebuano usage being notable in rural Saskatchewan, and many Quebec ridings having no recorded usage of secondary Philippine languages).  [Figure 5.3]
+<figure>
 <img align="center" src="https://github.com/Francis-Calingo/ELECTIONS-CANADA-RESEARCH-PROJECT-Filipino-Canadian-Demographic-Report/blob/main/Figures/Figure5.3.jpg" alt="Figure 5.3" width="600">
+        <figcaption>Figure 5.3</figcaption>
+    </figure>
 
 * **Filipino growth is concentrated in Eastern Canada.** Most ridings that recorded a growth rate of over 200% for their Filipino population (2016-2021) are based in Atlantic Canada or Quebec, with rural ridings (particularly in Western Canada) exhibiting moderate growth rates (i.e., at least 50%).  [Figure 5.4]
+<figure>
 <img align="center" src="https://github.com/Francis-Calingo/ELECTIONS-CANADA-RESEARCH-PROJECT-Filipino-Canadian-Demographic-Report/blob/main/Figures/Figure5.4.jpg" alt="Figure 5.4" width="600">
+        <figcaption>Figure 5.4</figcaption>
+    </figure>
 
 ---
 
@@ -198,120 +273,5 @@ Throughout the analysis, multiple assumptions were made to manage challenges wit
 * Data was mostly scraped from 2021 Census data (the next census year is 2026). The astronomical increases in migration into Canada since then (permanent and non-permanent) may render the analysis slightly outdated.
   
 * The data utilized analyzed the Filipino Canadian population as a whole. It does not specify the breakdown of that population in terms of citizenship (i.e., Canadian citizens vs. permanent residents vs. non-permanent residents). That is an important caveat to note because only Canadian citizens are eligible to vote in Canadian federal elections. Therefore, a rapid increase of the Filipino population in certain ridings may not automatically translate to an rapid increase in eligible Filipino Canadian voters, as the growth could be largely fuelled by non-permanent migration (made more likely by the rapid growth of the non-permanent resident population as a whole in Canada over the past few years).
-  
-
-
-=======================================================================
-
-
-## Table of Contents
-* [Introduction](#introduction)
-* [Code and Resources Used](#code-and-resources-used)
-* [Web Scraping](#web-scraping)
-* [Feature Engineering](#feature-engineering)
-* [Exploratory Data Analysis](#exploratory-data-analysis)
-  * [Numerical Variables](#-numerical-variables-)
-  * [Categorical Variables](#categorical-variables-)
-  * [Histogram Plots](#histogram-plots-)
-* [Correlation Analysis](#correlation-analysis)
-* [Geospatial Analysis](#geospatial-analysis)
-
-<details><summary><h2>Introduction</h2></summary> 
-
-
-</details>
-
-<details><summary><h2>Code and Resources Used</h2></summary> 
-
- </details>
-
-<details><summary><h2>Web Scraping</h2></summary> 
- 
-
-
- </details>
-
-
-
-<details><summary><h2>Exploratory Data Analysis</h2></summary> 
-
-#### <i> Numerical Variables </i>
-
-<img width="911" alt="image" src="https://github.com/user-attachments/assets/a846c99a-43a9-4ad8-87fa-7e6e3622d249" />
-
-#### <i>Categorical Variables </i>
-
-<img width="1013" alt="image" src="https://github.com/user-attachments/assets/1821d092-6d6b-4d31-a1b3-93efa74b6030" />
-
-<img width="999" alt="image" src="https://github.com/user-attachments/assets/23c4b4a9-99f7-473f-b84a-2371b10d0c72" />
-
-#### <i>Histogram Plots </i>
-<i> Canada </i>
-
-<img width="993" alt="image" src="https://github.com/user-attachments/assets/7b0cd999-3dd9-425e-8b93-39057ab4f95d" />
-
-<i> Atlantic Canada </i>
-
-<img width="950" alt="image" src="https://github.com/user-attachments/assets/9b62c0ab-9205-4912-bc15-1d7002b453da" />
-
-<img width="973" alt="image" src="https://github.com/user-attachments/assets/5d22eb83-9e9e-4b0f-b07e-00b980765f67" />
-
-<img width="944" alt="image" src="https://github.com/user-attachments/assets/6d25beec-38ec-45ed-9a5e-bba412117b68" />
-
-
-<i> Quebec </i>
-
-<img width="1029" alt="image" src="https://github.com/user-attachments/assets/a037a4fd-ea41-493f-9673-dfbd1beedf37" />
-
-
-<i> Ontario </i>
-
-<img width="545" alt="image" src="https://github.com/user-attachments/assets/a7cbe29c-b448-41e6-b333-47c28356a627" />
-
-
-<i> Prairies </i>
-
-<img width="712" alt="image" src="https://github.com/user-attachments/assets/5fd4f046-9ef7-4f92-9e74-6b8e29b344f5" />
-
-<img width="734" alt="image" src="https://github.com/user-attachments/assets/e8a77b28-ff37-4f41-89bd-aa353dd7ad74" />
-
-<img width="749" alt="image" src="https://github.com/user-attachments/assets/88b9fe36-aaeb-4005-a32f-08fb68c6d364" />
-
-<i> British Columbia </i>
-
-<img width="763" alt="image" src="https://github.com/user-attachments/assets/0ac266d8-b029-47bf-812c-4fcc18fd4904" />
-
-</details>
-
-<details><summary><h2>Correlation Analysis</h2></summary> 
-
-<ul>
-    <li>Variables used for analysis:</li>
-    <ul>
-      <li>Province/Territory</li>
-      <li>% Filipinos</li>
-      <li>% Population with Knowledge of French</li>
-      <li>Median Age</li>
-      <li>Healthcare workers (per 100,000)</li>
-      <li>% of Recent Immigrants from the PH (2016-2021)</li>
-      <li>Number of People with Bachelors Degree or Higher (per 100,000)</li>
-      </ul>
-    <li>Label encoding (i.e., assigning integers for each province and territory) was used for the variable Province/Territory</li>
-  </ul>
-
-  <img width="636" alt="image" src="https://github.com/user-attachments/assets/bd648d12-bcbc-437e-9602-c94458daf0fe" />
-</details>
-
-<details><summary><h2>Geospatial Analysis</h2></summary> 
-
-<img width="604" alt="image" src="https://github.com/user-attachments/assets/a2b151f7-d4c7-4f7a-bb01-cac2b213f890" />
-
-<img width="607" alt="image" src="https://github.com/user-attachments/assets/b639a44d-e2bc-4309-b83d-fe10a91a1f1d" />
-
-<img width="554" alt="image" src="https://github.com/user-attachments/assets/39f99f77-70ec-40d9-9042-af35a8a365f2" />
-
-<img width="590" alt="image" src="https://github.com/user-attachments/assets/ed72cc26-efa0-4d8e-8474-7fcdb4ad1d87" />
-
-</details>
 
 
