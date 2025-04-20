@@ -80,7 +80,7 @@ The Excel file has a total of **12,506 entries (37 fields x 338 records)**
 
 The shapefile has **2,366 entries (7 fields x 338 records)**. 
 
-Ir is important to note that the shapefile was extracted from a zip file that was downloaded from the Boundary files webpage of Statistics Canada. There are no associated CSVs, so in order to ascertain the fields, the shapefile needed to be exported as a CSV file via QGIS.
+It is important to note that the shapefile was extracted from a zip file that was downloaded from the Boundary files webpage of Statistics Canada. There are no associated CSVs, so in order to ascertain the fields, the shapefile needed to be exported as a CSV file via QGIS.
 As you can see, most of the fields are irrelevant in isolation besides FEDENAME, which houses the English names of the ridings *in order* . The csv itself is not needed, the shapefile is. [But it is in this repo for reference](https://github.com/Francis-Calingo/ELECTIONS-CANADA-RESEARCH-PROJECT-Filipino-Canadian-Demographic-Report/blob/main/Shapefile_Features.csv) to better understand the structure of the shapefile as well as the workflow of merging it with the main CSV file to create choropleth maps in R [Figure 1.2].
 
 <details><summary><b>FIELDS</b></summary> 
