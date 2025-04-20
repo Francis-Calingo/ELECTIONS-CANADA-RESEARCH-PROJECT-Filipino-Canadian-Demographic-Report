@@ -106,7 +106,7 @@ The following two entity relationship diagrams helps visualize the data workflow
 
 <b>Figure 1.2: Amalgamating geospatial data from the shapefile with certain variables from the Excel files to create choropleth maps via R's sf library</b>
 <figure>
-<img align="center" src="https://github.com/Francis-Calingo/ELECTIONS-CANADA-RESEARCH-PROJECT-Filipino-Canadian-Demographic-Report/blob/main/Figures/Figure1.2.jpg" alt="Figure 1.2" width="600">
+<img align="center" src=https://github.com/Francis-Calingo/ELECTIONS-CANADA-RESEARCH-PROJECT-Filipino-Canadian-Demographic-Report/blob/main/Figures/Figure1.2.jpg alt="Figure 1.2" width="600">
           <figcaption>Figure 1.2</figcaption>
     </figure>
 
