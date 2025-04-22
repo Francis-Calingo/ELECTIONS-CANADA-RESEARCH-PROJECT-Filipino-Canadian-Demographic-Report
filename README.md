@@ -35,6 +35,8 @@ The following is the R Script used for the quantitative analysis portion of the 
 
 The following is the report sent to senior analysts of the EMC: [Link to download](https://github.com/Francis-Calingo/ELECTIONS-CANADA-RESEARCH-PROJECT-Filipino-Canadian-Demographic-Report/raw/main/PROFILE%20OF%20THE%20FILIPINO%20CANADIAN%20COMMUNITY%20(BY%20ELECTORAL%20DISTRICTS).pdf).
 
+[<b>Back to Table of Contents</b>](#table-of-contents)
+
 ---
 
 # Data Structure and Initial Checks
@@ -109,6 +111,8 @@ The following two entity relationship diagrams helps visualize the data workflow
 <img align="center" src=https://github.com/Francis-Calingo/ELECTIONS-CANADA-RESEARCH-PROJECT-Filipino-Canadian-Demographic-Report/blob/main/Figures/Figure1.2.jpg alt="Figure 1.2" width="600">
           <figcaption>Figure 1.2</figcaption>
     </figure>
+    
+[<b>Back to Table of Contents</b>](#table-of-contents)
 
 ---
 
@@ -136,6 +140,8 @@ Four choropleth maps were created for this analysis, but the map that stood out 
   <img align="center" src="https://github.com/Francis-Calingo/ELECTIONS-CANADA-RESEARCH-PROJECT-Filipino-Canadian-Demographic-Report/blob/main/Figures/Figure2.3.jpg" alt="Figure 2.3" width="600">
           <figcaption>Figure 2.3</figcaption>
     </figure>
+    
+[<b>Back to Table of Contents</b>](#table-of-contents)
 
 ---
 
@@ -248,6 +254,8 @@ Four choropleth maps were created for this analysis, but the map that stood out 
         <figcaption>Figure 5.4</figcaption>
     </figure>
 
+[<b>Back to Table of Contents</b>](#table-of-contents)
+
 ---
 
 # Recommendations:
@@ -263,6 +271,8 @@ From the categorical bar plot measuring secondary Philippine language use by rid
   
 * From the spatial analysis surfaced from the four choropleth maps, the main takeaways were that the Filipino community is rapidly growing in Eastern Canadian and rural ridings-as evidenced by the many ridings where they make up the plurality or majority of recent immigrants, although the Filipino population remains concentrated in Western Canadian ridings (rural and urban) and the Greater Toronto Area. **The agency should monitor the experiences of Filipino voters in those regions and prepare to respond to any accessibility concerns pertinent to that community. (e.g., equip staff who are deployed to the Maritimes region of Canada with multilingual training to better prepare them for an increase of eligible voters from across different language communities, including from the Filipino community, in the coming years.)**
 
+[<b>Back to Table of Contents</b>](#table-of-contents)
+
 ---
 
 # Assumptions and Caveats:
@@ -275,4 +285,4 @@ Throughout the analysis, multiple assumptions were made to manage challenges wit
   
 * The data utilized analyzed the Filipino Canadian population as a whole. It does not specify the breakdown of that population in terms of citizenship (i.e., Canadian citizens vs. permanent residents vs. non-permanent residents). That is an important caveat to note because only Canadian citizens are eligible to vote in Canadian federal elections. Therefore, a rapid increase of the Filipino population in certain ridings may not automatically translate to an rapid increase in eligible Filipino Canadian voters, as the growth could be largely fuelled by non-permanent migration (made more likely by the rapid growth of the non-permanent resident population as a whole in Canada over the past few years).
 
-
+[<b>Back to Table of Contents</b>](#table-of-contents)
