@@ -7,6 +7,7 @@
 * [Insights Deep Dive](#insights-deep-dive)
 * [Recommendations](#recommendations)
 * [Assumptions and Caveats](#assumptions-and-caveats)
+* [Credits and Acknowledgements](#credits-and-acknowledgements)
 
 ---
 
@@ -293,3 +294,12 @@ Throughout the analysis, multiple assumptions were made to manage challenges wit
 * The data utilized analyzed the Filipino Canadian population as a whole. It does not specify the breakdown of that population in terms of citizenship (i.e., Canadian citizens vs. permanent residents vs. non-permanent residents). That is an important caveat to note because only Canadian citizens are eligible to vote in Canadian federal elections. Therefore, a rapid increase of the Filipino population in certain ridings may not automatically translate to an rapid increase in eligible Filipino Canadian voters, as the growth could be largely fuelled by non-permanent migration (made more likely by the rapid growth of the non-permanent resident population as a whole in Canada over the past few years).
 
 [<b>Back to Table of Contents</b>](#table-of-contents)
+
+---
+
+# Credits and Acknowledgements:
+
+"Exploratory Data Analysis on Covid-19 Dataset | Data Profiling & Visualization". Uploaded by Thu Vu, 2022-03-09. YouTube, https://www.youtube.com/watch?v=IjLRk2Q_A0U
+
+[<b>Back to Table of Contents</b>](#table-of-contents)
+
