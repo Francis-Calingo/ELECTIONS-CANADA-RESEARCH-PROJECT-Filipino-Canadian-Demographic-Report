@@ -35,6 +35,13 @@ The following is the R Script used for the quantitative analysis portion of the 
 
 The following is the report sent to senior analysts of the EMC: [Link to download](https://github.com/Francis-Calingo/ELECTIONS-CANADA-RESEARCH-PROJECT-Filipino-Canadian-Demographic-Report/raw/main/PROFILE%20OF%20THE%20FILIPINO%20CANADIAN%20COMMUNITY%20(BY%20ELECTORAL%20DISTRICTS).pdf).
 
+If you'd like to fork or run this locally:
+
+```bash
+git clone https://github.com/Francis-Calingo/ELECTIONS-CANADA-RESEARCH-PROJECT-Filipino-Canadian-Demographic-Report.git
+cd ELECTIONS-CANADA-RESEARCH-PROJECT-Filipino-Canadian-Demographic-Report
+```
+
 [<b>Back to Table of Contents</b>](#table-of-contents)
 
 ---
