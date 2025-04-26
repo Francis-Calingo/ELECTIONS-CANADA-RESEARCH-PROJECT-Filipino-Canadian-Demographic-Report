@@ -299,6 +299,8 @@ Throughout the analysis, multiple assumptions were made to manage challenges wit
 
 # Credits and Acknowledgements:
 
+“Choropleth Maps in Ggplot2.” R CHARTS | A Collection of Charts and Graphs Made with the R Programming Language, 4 May 2021, https://r-charts.com/spatial/choropleth-map-ggplot2/
+
 "Exploratory Data Analysis on Covid-19 Dataset | Data Profiling & Visualization". Uploaded by Thu Vu, 2022-03-09. YouTube, https://www.youtube.com/watch?v=IjLRk2Q_A0U
 
 [<b>Back to Table of Contents</b>](#table-of-contents)
